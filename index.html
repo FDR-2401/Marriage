@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <p class="heading">What does the girl's father want ?</p>
+        <div class="inputs">
+          <input
+            id="age"
+            type="number"
+            placeholder="Enter Your Age */Min age 21-30"
+          />
+          <input
+            id="salary"
+            type="number"
+            placeholder="Enter Your Salary */Min salary 30,000"
+          />
+          <input
+            id="height"
+            type="number"
+            placeholder="Enter Your height */Min height 5ft "
+          />
+        </div>
+        <div class="btn">
+          <button type="button" onclick="getInputValue();">Get Ans !!</button>
+          <button type="button" onclick="getReload();">Reset</button>
+        </div>
+        <p id="print"></p>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
